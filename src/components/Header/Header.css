@@ -1,0 +1,67 @@
+.h-wrapper{
+    height: 5vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-right{
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5.5rem;
+    align-items: center;
+}
+
+.h-text{
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 6.4rem;
+}
+
+.h-contact{
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Moblie Screen 320 - 480 */
+@media screen and (min-width: 320px) {
+    .h-wrapper{
+        display: none;
+    }
+}
+
+/* Tablets and ipads Screen 481px - 768px */
+@media screen and (min-width: 481px) {
+    .h-wrapper{
+        display: none;
+        
+    }
+
+}
+
+/* Laptops Screen 769px - 1024px */
+
+@media screen and (min-width: 769px) {
+    .h-wrapper{
+        display: none;
+    }
+}
+
+/* Desktops Screen 1025px - 1200px */
+
+@media screen and (min-width: 1025px) {
+    .h-wrapper{
+        height: 5vh;
+        display: block;
+        
+    }
+    .h-text{
+        margin-top: .5rem;
+    }
+    .h-contact{
+        margin-top: .5rem;
+    }
+}

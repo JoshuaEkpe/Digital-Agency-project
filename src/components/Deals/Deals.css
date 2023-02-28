@@ -1,0 +1,44 @@
+.d-intro{
+    height: 80vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.d-left{
+    
+
+}
+.d-right{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+.d-right>:nth-child(1){
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.d-right>:nth-child(2){
+    font-size: 1rem;
+    font-weight: 100;
+    color: gray;
+    line-height: 1.4rem;
+}
+.d-right>:nth-child(3){
+    font-size: 1rem;
+    font-weight: 100;
+    color: gray;
+    line-height: 1.4rem;
+}
+
+.d-button{
+    width: 133px;
+    height: 45px;
+    border: none;
+    color: #fff;
+    background-color: #DC7000;
+    border-radius: .1rem;
+}

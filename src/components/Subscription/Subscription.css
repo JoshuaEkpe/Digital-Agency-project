@@ -1,0 +1,93 @@
+.s-intro{
+    height: 70vh;
+    background-color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s-details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.3rem;
+    margin-left: 9.8rem;
+}
+.s-details>:nth-child(1){
+    margin-top: 4rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.s-details>:nth-child(2){
+    font-size: 1rem;
+    color: gray;
+    font-weight: 100;
+}
+
+.s-card{
+    margin-top: 4rem;
+    margin-left: 9.8rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: #222;
+    color: #fff;
+    width: 80%;
+    height: 23vh;
+    border-radius: 1rem;
+}
+.s-card>:nth-child(1){
+    font-size: 1.6rem;
+    margin-left: 2.6rem;
+}
+
+.s-card>:nth-child(2){
+    display: inline;
+    
+    
+}
+
+.s-card>:nth-child(2)>:nth-child(1){
+    font-size: 1rem;
+    color: #fff;
+    line-height: .5rem;
+    margin-left: 2.7rem;
+}
+.s-texts{
+    position: relative;
+}
+.s-card>:nth-child(2)>:nth-child(2){
+    font-size: 1rem;
+    color: #fff;
+    line-height: .5rem;
+    margin-left: 2.7rem;
+    margin-top: .4rem;
+}
+
+.s-email>:nth-child(1){
+    width: 32%;
+    height: 40px;
+    border-radius: .4rem;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 60%;
+    top: -60%;
+}
+input::placeholder{
+    color: gray;
+    padding-left: 1.5rem;
+}
+
+.s-email>:nth-child(2){
+    width: 120px;
+    height: 35px;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #DC7000;
+    position: absolute;
+    left: 80.5%;
+    top: -52%;
+}

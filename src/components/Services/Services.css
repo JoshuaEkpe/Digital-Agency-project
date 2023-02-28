@@ -1,0 +1,232 @@
+.s-services{
+    height: 110vh;
+    background-color: #fff;
+}
+
+.s-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: .6rem;
+    margin-top: 6rem;
+    
+}
+
+.s-left>:nth-child(1){
+    margin-top: 3.3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.s-left>:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s-left>:nth-child(3){
+    font-size: 1rem;
+    font-weight: 100;
+    color: gray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.s-left>:nth-child(4){
+    font-size: 1rem;
+    font-weight: 100;
+    color: gray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s-right{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+}
+
+.s-icon-top{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.s-icon-details{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.s-icon-details>:nth-child(1){
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FCF2E8;
+    position: relative;
+}
+
+.s-img{
+    transform: scale(0.85);
+    position: absolute;
+    top: 17%;
+    left: 30%;
+}
+
+.s-icon-details>:nth-child(2){
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: -4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.s-icon-details>:nth-child(3){
+    margin-left: .5rem;
+}
+
+
+.s-icon-details__2{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.s-icon-details__2>:nth-child(1){
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FCF2E8;
+    position: relative;
+}
+
+.s-img2{
+    transform: scale(0.85);
+    position: absolute;
+    top: 17%;
+    left: 16%;
+}
+
+.s-icon-details__2>:nth-child(2){
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: -4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s-icon-details__2>:nth-child(3){
+    margin-left: .5rem;
+}
+
+
+.s-icon-details__3{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.s-icon-details__3>:nth-child(1){
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FCF2E8;
+    position: relative;
+}
+
+.s-img3{
+    transform: scale(0.85);
+    position: absolute;
+    top: 14%;
+    left: 3%;
+}
+
+.s-icon-details__3>:nth-child(2){
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: -4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s-icon-details__3>:nth-child(3){
+    margin-left: .5rem;
+}
+
+
+.s-icon-details__4{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.s-icon-details__4>:nth-child(1){
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FCF2E8;
+    position: relative;
+}
+
+.s-img4{
+    transform: scale(0.85);
+    position: absolute;
+    top: 16%;
+    left: 19%;
+}
+
+.s-icon-details__4>:nth-child(2){
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: -2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s-icon-details__4>:nth-child(3){
+    margin-left: .5rem;
+}
+
+.s-icon-bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16rem;
+}
+
+
+.s-bottom-icon{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.s-bottom-icon>:nth-child(1){
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FCF2E8;
+    position: relative;
+}
+
+.s-b-img{
+    transform: scale(0.85);
+    position: absolute;
+    top: 14%;
+    left: 15%;
+}
+
+.s-bottom-icon>:nth-child(2){
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: -2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.s-bottom-icon>:nth-child(3){
+    margin-left: .5rem;
+}
